@@ -83,7 +83,12 @@ Dummy data Set I got on GitHub.
 *	Extract the car ID information from the carId column into separate columns for Make, Model, and Manufacture Year.
 *	Handle potential inconsistencies or missing data in the extracted columns.
 *	Remove duplicates, handling duplicates.
-
+  ![](Picture1.jpg)
+RAW DATASET
+   ![](Picture2.jpg)
+Highlight dataset go to data tab and in data tools click on  remove duplicates.
+There were duplicates in the data duplicates were removed.
+ ![](Picture3.jpg)
 
 ### TASK 2 Data Analysis:
 *	Calculate the current age of each car.
