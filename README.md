@@ -214,3 +214,57 @@ The formula uses the IF function to determine if a subtraction operation results
 ![](Picture18.jpg)
 
 ![](Picture19.jpg)
+
+## DATA ANALYSIS
+![](DASHBOARD1.png)
+
+![](DASHBOARD2.png)
+ ### Aging Fleet
+* The average vehicle age in the inventory is 16.9 years, indicating an aging fleet.
+
+* The youngest car is 11 years old; any car older than 25 years is no longer covered under warranty.
+
+The Caravan car model has the highest average age, at 23.25, while the Elantra is the youngest on average, at 12.75.
+
+### Mileage Insights
+* Smith has the highest total mileage driven at 305,432 miles, followed by a Jones at 184,694 miles.
+
+* Among the top 5 drivers, Ewenty has the lowest mileage at 154,428 miles.
+
+* The fleet exhibits relatively low annual mileage, ranging from 2,122 to 2,643 miles/year on average.
+
+### Color Preference
+* Black is the most common car color with 24 vehicles, followed by White (11), and Red (2) being the least common.
+
+### Warranty Status
+* 48 vehicles are still under warranty, while 4 vehicles are not.
+
+* The 4 cars not under warranty include:
+  + 2 Caravans (combined 6,144 miles/year, with an average age 25.5 yrs)
+  + 1 Camry (3,954 mi/year, age 29 yrs)
+  + 1 Civic (3,168 mi/year, age 26 yrs)
+The colors of these cars: White, Black, and 2 Green
+
+### Unique Car Identification
+A New Car ID was created by combining Make, Model, Year, and Color codes, aiding in tracking and inventory management.
+
+### Make & Model Summary
+* Chrysler has the highest number of cars (21), followed by Toyota (20); Hyundai has the fewest (13).
+* Camry leads in total miles/year among top models with 18,508, followed by Focus (16,485), and Odyssey (11,543).
+
+## Conclusion
+This car inventory analysis project successfully transformed a poorly formatted dataset into meaningful insights using Microsoft Excel. Through systematic data cleaning, transformation, and visualization, key metrics were uncovered about the fleet’s condition, driver usage, and warranty status.
+
+The analysis revealed a predominantly aging fleet, imbalanced driver usage, and warranty risks—all of which can affect operational efficiency and maintenance costs. Additionally, consumer preferences, such as color trends, were identified to guide inventory and marketing decisions.
+
+By generating a unique car ID system, leveraging lookup tables, and building interactive PivotTables, the dataset was made more structured, searchable, and valuable for decision-making.
+
+### Recommendations
+* Prioritize replacing vehicles over 25 years old, especially those no longer under warranty.
+* Introduce newer vehicles to reduce average fleet age and improve efficiency.
+* Balance driver assignments by reviewing Smith’s high mileage and redistributing workloads.
+* Engage low-mileage drivers like Yousef to maximize fleet use.
+* Focus marketing campaigns on Black vehicles, which are the most popular color.
+* Align future acquisitions with top-performing models and consumer trends (e.g., Camry, Focus).
+* Set up alerts for vehicles nearing warranty expiration.
+* Maintain records of warranty-covered and non-covered vehicles to plan for upcoming maintenance costs.
